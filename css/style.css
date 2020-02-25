@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 body {
-  background: #e8e8e8 url("../../img/icons/eclipse.png") 50% 140px no-repeat;
+  background: #e8e8e8 url("../img/icons/eclipse.png") 50% 140px no-repeat;
 }
 
 .content {
@@ -136,7 +136,7 @@ body {
   font-size: 20px;
   margin-bottom: 14px;
   list-style-type: none;
-  background: url(../../img/icons/check.png) left no-repeat;
+  background: url('../img/icons/check.png') left no-repeat;
   padding-left: 32px;
 }
 .content-bottom-info__list li:nth-child(1) {
@@ -172,6 +172,6 @@ body {
   letter-spacing: 2.8px;
 }
 .content-bottom-info__link span:after {
-  content: url("../../img/icons/arrow.png");
+  content: url("../img/icons/arrow.png");
   margin-left: 9px;
 }
