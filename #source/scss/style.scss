@@ -1,0 +1,115 @@
+//Импорт обнуляющего стиля
+@import "nullStyle.scss";
+
+body {
+	background: #e8e8e8 url('../../img/icons/eclipse.png') 50% 140px no-repeat;
+}
+
+.content {
+	padding: 168px 0 137px 0;
+	max-width: 841px;
+	margin: 0 auto;
+}
+.content-top {
+	text-align: center;
+	margin-bottom: 64px;
+	
+}
+.content-top__category {
+	color: #879297;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	padding-bottom: 14px;
+}
+
+.content-top__title {
+	color: #273d46;
+	font-size: 36px;
+	line-height: 50px;
+	max-width: 725px;
+	margin: 0 auto;
+}
+.content-img {
+	box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+	background-color: white;
+	padding: 11px;
+	margin-bottom: 86px;
+	img {
+		max-width: 100%;	}
+}
+.content-bottom {
+	padding: 0 40px 0 49px;
+	&__text {
+		opacity: 0.8;
+		color: #273d46;
+		font-size: 24px;
+		line-height: 40px;
+		margin-bottom: 10px;
+		p {padding-bottom: 40px;}
+	}
+}
+
+.content-bottom-info {
+
+	&__list {
+		margin-bottom: 60px;
+			li {
+				font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+				font-size: 20px;
+				margin-bottom: 14px;
+				list-style-type: none;
+				background: url(../../img/icons/check.png) left no-repeat;
+				padding-left: 32px;
+			}
+			li:nth-child(1) {
+				text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+				color: #273d46;
+			}
+			li:nth-child(2) {
+				color: #80b7b3;
+				font-style: italic;
+			}
+			li:nth-child(3) {
+				color: #273d46;
+				font-weight: bold;
+			}
+			li:nth-child(4) {
+				color: #b3b9bc;
+				text-decoration: line-through;
+			}
+	}
+}
+
+.content-bottom-info__link {
+	height: 44px;
+	display: inline-block;
+	background-color: #80b7b3;
+	box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
+	padding: 17px 30px;
+	border-radius: 20px; 
+	a {
+		color: #ffffff;
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 2.8px;
+	}
+	span:after {
+		content: url('../../img/icons/arrow.png');
+		margin-left: 9px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
